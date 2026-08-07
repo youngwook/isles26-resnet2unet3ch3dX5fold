@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Environment and secret files
+.env
+*.env
+secrets/
+credentials/
+
+# Data and results
+test/
+test/output/
+test/input/
+model/
+csv_to_json.py
+#model
+*.tar.gz
