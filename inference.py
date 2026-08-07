@@ -8,7 +8,6 @@ import numpy
 import torch
 import SimpleITK
 from monai.inferers import sliding_window_inference
-
 from isles_src.config import Config
 from isles_src.model import ResNetUNet3D3Ch
 from isles_src.preprocess import (
